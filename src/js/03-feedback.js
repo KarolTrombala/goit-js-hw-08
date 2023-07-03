@@ -24,7 +24,7 @@ const pageReload = () => {
 
   if (storageStatus) {
     emailEl.value = storageStatus.email;
-    messageEl.value = pstorageStatus.message;
+    messageEl.value = storageStatus.message;
     data.email = storageStatus.email;
     data.message = storageStatus;
   } else {

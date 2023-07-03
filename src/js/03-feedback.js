@@ -32,6 +32,7 @@ const pageReload = () => {
     messageEl.value = '';
   }
 };
+pageReload();
 
 formEl.addEventListener('submit', e => {
   e.preventDefault();

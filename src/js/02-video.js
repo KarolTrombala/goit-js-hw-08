@@ -21,5 +21,5 @@ player
         break;
       default:
         break;
-    }
+   }
   });
